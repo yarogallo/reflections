@@ -9,4 +9,8 @@ git repository is tied to specific directory
  the staging area is where you put files that is going to be committed, in the
  directory or repository you have all your projects files. The staging area is
  helpful because you can have the only the files that you want to commit. Only
- the files that have changes.  
+ the files that have changes.
+
+ Ideas: Initially all git repository is empty, and you have to go and add file
+ to file in the repository with add command
+ git add file 
