@@ -1,0 +1,47 @@
+cd How did viewing a diff between two versions of a file help you see the bug
+ that was introduced?
+1. because if the first version does not have bugs, and in the second version
+there are bugs that was not in the first then , the mistake has to be in the
+changes.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+2.Because you are able to have access to all of the change you have made in
+the whole way, so if you need to look back into any of those changes you have
+located when and which version you need to access.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+3.cons: sometimes if you don't have clear when commit, your commit can be to big
+or to small, that your history is going to be different to understand. More
+small commits the diff is going to be bigger.
+pros: you can commit when ever you think is a good time, when ever you think is a
+the commit has a purpose.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+4.Because some version Control system like Git take into account that maybe
+a change in a file can affect other files in a project, so we may want keep
+tracking on all of them.
+
+How can you use the commands git log and git diff to view the history of files?
+
+5.The git log command is going to show all commits in the repository, each commit
+has a message, date, author and unique id. (git log --stat the file that have
+changed in every commit)
+git diff oldCommitId newCommitId is going to show the differences between the two
+commit, how many deletion and insertion(the changes) .
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Because if you introduce a bug, (break something) you can always return to you
+before state, and moves back to see where the bugs was introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
