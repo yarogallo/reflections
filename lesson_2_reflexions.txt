@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+when we initialize a repository, a hidden file is going to be created, to keep
+track of the  repository history(store metadata). We need to do that because with
+out a repository we would not be able to keep track of our file history. each
+git repository is tied to specific directory  
