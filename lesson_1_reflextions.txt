@@ -44,4 +44,4 @@ before state, and moves back to see where the bugs was introduced.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+    I want to try keep track of all the files in my projects
