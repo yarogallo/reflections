@@ -20,7 +20,18 @@ git repository is tied to specific directory
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-3- You can make changes in differents files, then you can put in the staging area
+3- You can make changes in different files, then you can put in the staging area
 only the files that you want logical commit. Or yo can make all the changes that
 are going to meaningful to you, then put it in the staging are, so that files
-are ready to be commit because they represent a logical change. 
+are ready to be commit because they represent a logical change.
+
+What are some situations when branches would be helpful in keeping your history
+ organized? How would branches help?
+
+4- there are some situation that branches would be helpful, when you want add new
+features in your project, if you want to do a different version for specific
+people. If you want work in a new version of your project based in the old version.
+
+In those situations branches would be very helpful, because you would be able to
+ keep  the version that you have already running without been affected for your
+ work.   
