@@ -15,4 +15,12 @@ git repository is tied to specific directory
  to file in the repository with add command
  git add file
 
- commit is a snapshot of every file in the project at the time you commit. 
+ commit is a snapshot of every file in the project at the time you commit.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+3- You can make changes in differents files, then you can put in the staging area
+only the files that you want logical commit. Or yo can make all the changes that
+are going to meaningful to you, then put it in the staging are, so that files
+are ready to be commit because they represent a logical change. 
