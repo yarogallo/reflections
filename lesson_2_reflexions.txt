@@ -34,4 +34,10 @@ people. If you want work in a new version of your project based in the old versi
 
 In those situations branches would be very helpful, because you would be able to
  keep  the version that you have already running without been affected for your
- work.   
+ work.
+
+ 5-What is the result of merging two branches together? Why do we represent it
+  in the diagram the way we do?
+
+ The result of merging two branches together is a new commit, that have all
+ change that were made in both branches. (the combination of both).
