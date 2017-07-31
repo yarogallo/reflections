@@ -41,3 +41,11 @@ In those situations branches would be very helpful, because you would be able to
 
  The result of merging two branches together is a new commit, that have all
  change that were made in both branches. (the combination of both).
+
+6-What are the pros and cons of Git’s automatic merging vs.
+always doing merges manually?
+
+if git automatically merge you can have unexpected results, the reality is that
+you dont have to worry about conflicts but, if there is 
+a conflict git is going to the keep change that maybe will be what your are
+expecting or maybe not,
