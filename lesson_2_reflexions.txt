@@ -1,51 +1,46 @@
 1- What happens when you initialize a repository? Why do you need to do it?
-when we initialize a repository, a hidden file is going to be created, to keep
+
+A hidden file is going to be created, to keep
 track of the  repository history(store metadata). We need to do that because with
-out a repository we would not be able to keep track of our file history. each
+out a repository we would not be able to keep track of our file history. Each
 git repository is tied to specific directory
 
 2- How is the staging area different from the working directory and the repository?
  What value do you think it offers?
- the staging area is where you put files that is going to be committed, in the
- directory or repository you have all your projects files. The staging area is
- helpful because you can have the only the files that you want to commit. Only
- the files that have changes.
-
- Ideas: Initially all git repository is empty, and you have to go and add file
- to file in the repository with add command
+ 
+ The staging area is where we put files that are going to be committed, you can have 
+ only the change that represent a logical commit. 
+ 
+ Repository: Initially all git repositories are empty, and you have to go and add file
+ to file in the repository with add command.
  git add file
 
- commit is a snapshot of every file in the project at the time you commit.
+ Commit: is a snapshot of every file in the project at the time you commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-3- You can make changes in different files, then you can put in the staging area
-only the files that you want logical commit. Or yo can make all the changes that
-are going to meaningful to you, then put it in the staging are, so that files
-are ready to be commit because they represent a logical change.
+3- We have changes in different files, then we put in the staging area
+only the files that you want logical commit (or we can make all the changes that
+are going to meaningful, then put it in the staging area, so that files
+are ready to be commit because they represent a logical change.)
 
 What are some situations when branches would be helpful in keeping your history
  organized? How would branches help?
 
-4- there are some situation that branches would be helpful, when you want add new
-features in your project, if you want to do a different version for specific
-people. If you want work in a new version of your project based in the old version.
+4- If we want add a new feature in our project,a different version for specific
+purpose, work in a new version of the project based in the old version but we dont want affect
+the original project(keep it running). 
+ 
+What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
 
-In those situations branches would be very helpful, because you would be able to
- keep  the version that you have already running without been affected for your
- work.
+5-The result of merging two branches is a new branch(commit), that have all
+change that were made in both(the combination of both).
 
- 5-What is the result of merging two branches together? Why do we represent it
-  in the diagram the way we do?
-
- The result of merging two branches together is a new commit, that have all
- change that were made in both branches. (the combination of both).
-
-6-What are the pros and cons of Git’s automatic merging vs.
+What are the pros and cons of Git’s automatic merging vs.
 always doing merges manually?
 
-if git automatically merge you can have unexpected results, the reality is that
-you dont have to worry about conflicts but, if there is 
-a conflict git is going to the keep change that maybe will be what your are
-expecting or maybe not,
+6-Manually merge let us the opportunity to merge when our work is done, if we finished the features 
+we were working on and no before, if we totally fix the bug. That way reduces conflict and we can review and test
+our changes before merge.
